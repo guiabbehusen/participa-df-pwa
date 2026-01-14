@@ -1,0 +1,30 @@
+:root {
+  --color-bg: #ffffff;
+  --color-surface: #f6f7f9;
+  --color-fg: #111827;
+  --color-muted: #4b5563;
+  --color-border: #d1d5db;
+  --color-primary: #0b5fff;
+
+  --radius: 12px;
+  --space-1: 6px;
+  --space-2: 10px;
+  --space-3: 14px;
+  --space-4: 18px;
+
+  --focus-ring: 3px solid var(--color-primary);
+}
+
+html[data-contrast="high"] {
+  --color-bg: #000000;
+  --color-surface: #111111;
+  --color-fg: #ffffff;
+  --color-muted: #e5e7eb;
+  --color-border: #ffffff;
+  --color-primary: #00e5ff;
+  --focus-ring: 3px solid #ffffff;
+}
+
+html[data-text="large"] {
+  font-size: 112.5%;
+}
